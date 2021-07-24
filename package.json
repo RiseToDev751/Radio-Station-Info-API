@@ -1,6 +1,6 @@
 {
   "name": "package",
-  "homepage":"radiostationapi.netifly.com"
+  "homepage":"radiostationapi.netifly.com",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
