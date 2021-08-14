@@ -101,5 +101,5 @@ var info = [
 app.get("/stationinfo", (req,res) => {
     res.json(info)
 });
-
+app.listen(port)
 console.log("Aktif")
