@@ -1,7 +1,7 @@
 const { json } = require("express");
 const express = require("express");
 var app = express();
-
+const port = process.env.PORT || "3000";
 
 var info = [
     {
@@ -102,6 +102,4 @@ app.get("/stationinfo", (req,res) => {
     res.json(info)
 });
 
-
-app.listen(4000)
 console.log("Aktif")
